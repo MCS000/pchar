@@ -1,0 +1,8 @@
+GRAIN_DIAMETER   2.0 
+CORE_DIAMETER    1.0 
+GRAIN_LENGTH     4.0 
+BEGIN_TIME       0.0 
+END_TIME         1.150 
+DELTA_T          0.0175
+DATAFILE         Sample.dat 
+OUTFILE          out.txt
