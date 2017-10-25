@@ -1,19 +1,16 @@
-﻿Build started 10/23/2017 12:30:27 PM.
-     1>Project "C:\Users\mspiegl\My Documents\GitHub\pchar\pchar\pchar.vcxproj" on node 2 (Build target(s)).
+﻿Build started 10/25/2017 9:48:23 AM.
+     1>Project "C:\Users\mspiegl\Desktop\zzz\pchar\pchar\pchar.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt getopt.cpp pchar.cpp stdafx.cpp
-         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt getopt.cpp pchar.cpp
          pchar.cpp
          getopt.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mspiegl\My Documents\GitHub\pchar\Debug\pchar.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\mspiegl\My Documents\GitHub\pchar\Debug\pchar.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mspiegl\My Documents\GitHub\pchar\Debug\pchar.lib" /MACHINE:X86 /SAFESEH Debug\getopt.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mspiegl\Desktop\zzz\pchar\Debug\pchar.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\mspiegl\Desktop\zzz\pchar\Debug\pchar.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mspiegl\Desktop\zzz\pchar\Debug\pchar.lib" /MACHINE:X86 /SAFESEH:NO Debug\getopt.obj
          Debug\pchar.obj
-         Debug\stdafx.obj
-     1>getopt.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-         pchar.vcxproj -> C:\Users\mspiegl\My Documents\GitHub\pchar\Debug\pchar.exe
-     1>Done Building Project "C:\Users\mspiegl\My Documents\GitHub\pchar\pchar\pchar.vcxproj" (Build target(s)).
+         pchar.vcxproj -> C:\Users\mspiegl\Desktop\zzz\pchar\Debug\pchar.exe
+     1>Done Building Project "C:\Users\mspiegl\Desktop\zzz\pchar\pchar\pchar.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.98
+Time Elapsed 00:00:00.50

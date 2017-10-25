@@ -7,22 +7,28 @@ Adapted from Ballisti.c by Jeroen Louwers which is based on
 from Progressive Burning Grains Data." FROM: J. Spacecraft Vol. 5, No.5, 
 623-624 (1968)
 
-   Usage: balli [-f infile]
+   Usage: pchar [-f infile]
 
    Author: Mark Spiegl
 
 ***************************************************************************/
 
-// Remove this line for non-Windows compile
+// Change this line for non-Windows compile
 #define WINDOWS_COMPILE
+/* #define GCC_COMPILE */
+
 
 // To keep Visual Studio quiet about deprecated functions
 #define _CRT_SECURE_NO_WARNINGS   
 
 #ifdef WINDOWS_COMPILE
-#include "stdafx.h"
 #include <stdlib.h> 
 #include <ctype.h> 
+#endif
+
+#ifdef GCC_COMPILE
+#include <cstdlib>
+#include  <cctype> 
 #endif
 
 #include <stdio.h>

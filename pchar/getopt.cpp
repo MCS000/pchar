@@ -1,5 +1,3 @@
-#include "stdafx.h"
-
 /*
  
 Copyright (c) 1990, 1991, 1992  X Consortium
