@@ -189,6 +189,7 @@ input_raw_data(char *fname)
 
    if (fname == (char *) 0) {
       (void) printf("Outside Grain Diam. (inches): ");
+	  (void) fflush(stdout);	// Not sure why some non-windows distros need explicit flush
       (void) fgets(str, MAXSTR, stdin);
    } else
       get_from_file(fname, "GRAIN_DIAMETER", str);
@@ -197,6 +198,7 @@ input_raw_data(char *fname)
 
    if (fname == (char *) 0) {
       (void) printf("Grain Core Diameter (inches): ");
+	  (void) fflush(stdout);
       (void) fgets(str, MAXSTR, stdin);
    } else
       get_from_file(fname, "CORE_DIAMETER", str);
@@ -205,6 +207,7 @@ input_raw_data(char *fname)
 
    if (fname == (char *) 0) {
       (void) printf("Grain Length (inches): ");
+	  (void) fflush(stdout);
       (void) fgets(str, MAXSTR, stdin);
    } else
       get_from_file(fname, "GRAIN_LENGTH", str);
@@ -212,6 +215,7 @@ input_raw_data(char *fname)
 
    if (fname == (char *) 0) {
       (void) printf("Begin Time: ");
+	  (void) fflush(stdout);
       (void) fgets(str, MAXSTR, stdin);
    } else
       get_from_file(fname, "BEGIN_TIME", str);
@@ -219,6 +223,7 @@ input_raw_data(char *fname)
 
    if (fname == (char *) 0) {
       (void) printf("End Time: ");
+	  (void) fflush(stdout);
       (void) fgets(str, MAXSTR, stdin);
    } else
       get_from_file(fname, "END_TIME", str);
@@ -226,6 +231,7 @@ input_raw_data(char *fname)
 
    if (fname == (char *) 0) {
       (void) printf("Delta t (sec): ");
+	  (void) fflush(stdout);
       (void) fgets(str, MAXSTR, stdin);
    } else
       get_from_file(fname, "DELTA_T", str);
@@ -233,6 +239,7 @@ input_raw_data(char *fname)
 
    if (fname == (char *) 0) {
       (void) printf("Time vs Pressure datafile: ");
+	  (void) fflush(stdout);
       (void) fgets(str, MAXSTR, stdin);
    } else
       get_from_file(fname, "DATAFILE", str);
@@ -304,6 +311,7 @@ get_output_file(char *fname)
 
    if (fname == (char *) 0) {
       (void) printf("Output file [return for stdout]: ");
+	  (void) fflush(stdout); // Not sure why some non-windows distros need explicit flush
       (void) gets(outfile);
    } else
       get_from_file(fname, "OUTFILE", outfile);
