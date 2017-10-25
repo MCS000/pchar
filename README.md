@@ -15,7 +15,11 @@ both ends inhibited.
     In pchar.cpp comment/uncomment the #define WINDOWS_COMPILE or GCC_COMPILE as needed. 
     In Windows use VisualStudio to open pchar.sln. 
     If using gcc then enter "g++ pchar.cpp getopt.cpp"
+    A pre-compiled Windows binary is included as Debug/pchar.exe 
 
 ### To run:
     pchar -f Sample.in
     Output is out.txt
+
+
+
